@@ -1,0 +1,134 @@
+.rightPart {
+  font-family: "Trebuchet MS";
+  overflow: visible;
+  position: absolute;
+  width: 47vw;
+  height: 800px;
+  right: 9vw;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rightPart hr {
+  margin-right: 0px;
+}
+
+/*next appointment*/
+.nextAppointment {
+  color: #334d6e;
+  font-size: 13;
+
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.textBox {
+  background-color: rgb(231, 228, 228);
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.date {
+  color: black;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+/*patient trends and incidents*/
+
+.patientTrendsandIncidents {
+  margin-top: 10px;
+}
+
+.trends {
+  color: #bc8da0;
+  border-color: white;
+  background-color: rgb(224, 222, 222);
+  margin-left: 300px;
+  margin-right: 5px;
+  margin-top: 0px;
+  width: 70px;
+  display: inline-block;
+}
+
+.incidents {
+  border-color: white;
+  display: inline-block;
+  margin-right: 10px;
+  width: 70px;
+  top: 30px;
+}
+
+.title {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #575757;
+}
+
+.filter {
+  display: block;
+  margin-left: 250px;
+  margin-top: 5px;
+  float: right;
+  font-size: 13px;
+  margin-right: 50px;
+}
+.filterButton {
+  color: #bc8da0;
+  border-color: white;
+}
+
+.dateRange {
+  font-size: 11px;
+  margin-left: 20px;
+  margin-top: 35px;
+}
+.dateButton {
+  width: 70px;
+  background-color: rgb(224, 222, 222);
+  border-color: white;
+}
+
+.graph {
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: 15px;
+  margin-right: 50px;
+}
+.trendsTitle {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.trendsInIncidents {
+  border-color: white;
+
+  margin-left: 300px;
+  margin-right: 5px;
+  margin-top: 0px;
+  width: 70px;
+  display: inline-block;
+}
+
+.incidentsInIncidents {
+  color: #bc8da0;
+  background-color: rgb(224, 222, 222);
+  border-color: white;
+  display: inline-block;
+  margin-right: 10px;
+  width: 70px;
+  top: 30px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.reactTable {
+  margin-left: 5px;
+  margin-right: 5px;
+}

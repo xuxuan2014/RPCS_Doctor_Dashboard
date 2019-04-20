@@ -1,0 +1,104 @@
+.Schedule {
+  font-family: "Trebuchet MS";
+  display: block;
+  overflow: visible;
+  position: absolute;
+  width: 40vw;
+  left: 9vw;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Headline {
+  display: inline-block;
+  overflow: visible;
+  font-size: 13px;
+  color: #334D6E;
+  position: absolute;
+  left: 25px;
+  top: 30px;
+}
+
+.DatePicker {
+  display: inline-block;
+  overflow: visible;
+  font-size: 13px;
+  color: #1C2E36;
+  position: absolute;
+  right: 20px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.Date {
+  display: block;
+  overflow: visible;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1C2E36;
+  position: absolute;
+  left: 25px;
+  top: 60px;
+}
+
+.Day {
+  color: #BC8DA0;
+}
+
+.ScheduleList {
+  position: relative;
+  display: block;
+  overflow: auto;
+}
+
+.ScheduleContainer {
+  position: relative;
+  display: block;
+  overflow: visible;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 1px solid #EBEFF2;
+  margin-right: 40px;
+  margin-top:15px;
+}
+
+.PatientInfo {
+  float: right;
+  width: 60%;
+  display: block;
+  min-height: 100%;
+  overflow: auto;
+  margin-right: 40px;
+}
+
+.ApptTime {
+  font-size: 18px;
+  color: #575757;
+}
+
+.PatientName {
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+}
+
+.LastAppt {
+  font-size: 12px;
+  text-align: right;
+  float: right;
+}
+
+.PatientNote {
+  font-size: 14px;
+  color: #575757;
+  position: relative;
+  float: left;
+  margin-top: 3px;
+  text-align: left;
+}

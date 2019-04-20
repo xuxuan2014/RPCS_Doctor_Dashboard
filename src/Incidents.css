@@ -1,0 +1,46 @@
+.Incidents {
+  font-family: "Trebuchet MS";
+  display: block;
+  overflow: visible;
+  position: absolute;
+  width: 48vw;
+  right: 9vw;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.DatePickerInput {
+  padding-left: 5px;
+}
+
+.IncidentsTitle {
+  display: block;
+  position: relative;
+  margin-top: 200px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #575757;
+}
+
+.IncidentDateRange {
+  display: block;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.IncidentDateRange span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Incidents hr {
+  border: 1px solid #EBEFF2;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
