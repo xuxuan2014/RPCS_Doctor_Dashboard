@@ -3,20 +3,20 @@ import ReactDOM from 'react-dom';
 import {Bar, Line, Pie} from "react-chartjs-2";
 import $ from "jquery";
 
-class CognitiveAssessment extends Component{
+class OvernightBathroom extends Component{
   constructor(props){
     super(props);
     this.state={
       chartData:{
-        labels: ["01/01/2019", "01/02/2019", "01/03/2019", "01/04/2019", "01/05/2019"],
+        labels: ["01/01/2019","01/02/2019", "01/03/2019", "01/04/2019", "01/05/2019"],
         datasets: [
         {
-          label: "Cognitive Awakenings/ Wanderings",
+          label: "Overnight Bathroom Usage",
           backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
           fill: false,
           lineTension:0,
 
-          data: [80,82,85,97,74]
+          data: [2,1,0,0,3]
         }
                   ]
 
@@ -29,6 +29,7 @@ class CognitiveAssessment extends Component{
       <Line
       data={this.state.chartData}
       options={{
+
         scales: {
           xAxes: [{
             scaleLabel: {
@@ -39,15 +40,16 @@ class CognitiveAssessment extends Component{
           yAxes: [{
             scaleLabel: {
                 display: true,
-                labelString: 'Score'
+                labelString: 'Count'
+
                 },
           ticks: {
-              beginAtZero:true
+              beginAtZero:true,
+              stepSize: 1
           },
           stacked: false
         }]
       },
-
         legend:{
           display:false
         }
@@ -58,4 +60,4 @@ class CognitiveAssessment extends Component{
   }
 
 }
-export default CognitiveAssessment;
+export default OvernightBathroom;

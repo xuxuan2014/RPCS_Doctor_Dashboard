@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {Bar, Line, Pie} from "react-chartjs-2";
 import $ from "jquery";
 
-class CognitiveAssessment extends Component{
+class OvernightAwakenings extends Component{
   constructor(props){
     super(props);
     this.state={
@@ -16,7 +16,7 @@ class CognitiveAssessment extends Component{
           fill: false,
           lineTension:0,
 
-          data: [80,82,85,97,74]
+          data: [0,2,1,2,0]
         }
                   ]
 
@@ -39,15 +39,16 @@ class CognitiveAssessment extends Component{
           yAxes: [{
             scaleLabel: {
                 display: true,
-                labelString: 'Score'
+                labelString: 'Count'
+
                 },
           ticks: {
-              beginAtZero:true
+              beginAtZero:true,
+              stepSize: 1
           },
           stacked: false
         }]
       },
-
         legend:{
           display:false
         }
@@ -58,4 +59,4 @@ class CognitiveAssessment extends Component{
   }
 
 }
-export default CognitiveAssessment;
+export default OvernightAwakenings;
